@@ -7,11 +7,25 @@
   <div class="container">
     <header class="navbar">
       <div class="navbar-inner">
-        <h1>CMessage</h1>
+        <h1>CmessageD</h1>
       </div>
     </header>
     <div id="main" class="row-fluid">
-      {{> postsList}}
+      <!-- {{> postsList}} -->
+    </div>
+    <div class="row">
+      <div id="chat-left" class="col-xs-6">
+        <h1 class="charlie">Charlie</h1>
+        <div class="container charlie">
+          {{> cmchat}}
+        </div>
+      </div>
+      <div id="chat-right" class="col-xs-6">
+        <h1>Daisy</h1>
+        <div class="container">
+          {{> dmchat}}
+        </div>
+      </div>
     </div>
   </div>
 

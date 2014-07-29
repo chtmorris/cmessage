@@ -1,0 +1,28 @@
+<template name="cmchat">
+  <div id="messages">
+    {{#each cmessages}}
+      {{>CMchatMessage}}
+    {{/each}}
+  </div>
+  <textarea id='Cchat-message'></textarea><br>
+  <button class='btn btn-primary' id='csend'>Send Chat</button>
+</template>
+
+
+<template name="dmchat">
+  <div id="messages">
+    {{#each dmessages}}
+      {{>DMchatMessage}}
+    {{/each}}
+  </div>
+  <textarea id='Dchat-message'></textarea><br>
+  <button class='btn btn-primary' id='dsend'>Send Chat</button>
+</template>
+
+<template name="CMchatMessage">
+      <h4>{{mssg}}</h4>
+</template>
+
+<template name="DMchatMessage">
+      <h4>{{mssg}}</h4>
+</template>

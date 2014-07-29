@@ -1,3 +1,31 @@
+.charlie {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+#Cchat-message {
+  color: black;
+}
+
+#messages {
+  width: 45%;
+  height: 400px;
+  border: 1px solid rgb(230, 230, 230);
+  margin: 0px 0px 10px 0px;
+}
+
+#Cchat-message, #Dchat-message {
+  width: 45%;
+  height: 50px;
+}
+
 .grid-block, .main, .post, .comments li, .comment-form {
     background: #fff;
     border-radius: 3px;
